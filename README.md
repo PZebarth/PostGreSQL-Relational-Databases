@@ -3,7 +3,7 @@
 Udiddit, a social news aggregation, web content rating, and discussion website, is currently using a risky and unreliable Postgres database schema to store the forum posts, discussions, and votes made by their users about different topics. I create a new schema, fix exsiting issues, and migrate the data from the databases.<br>
 
 ## Project Files
-> * Udiddit, a social news aggregator.docx - Contains the DDL of old schema, design guidlines new schema DDL, and DML data migration explanations.
+> * Udiddit, a social news aggregator.docx - Contains the DDL of old schema, design guidlines of new schema DDL, and DML data migration explanations.
 > * Project #2 -  The sql code used to improve the DDL of old schema and DML to migrate data.
 
 ## Conclusion
