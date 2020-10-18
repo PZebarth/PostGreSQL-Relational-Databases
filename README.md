@@ -9,7 +9,7 @@ Udiddit, a social news aggregation, web content rating, and discussion website, 
 ## Conclusion
 I wrote a new Schema to accomodate the following: <br>
 
-1.	Guideline #1: here is a list of features and specifications that Udiddit needs in order to support its website and administrative interface:
+1.	Guideline #1: Here is a list of features and specifications that Udiddit needs in order to support its website and administrative interface:
 > * A.	Allow new users to register: <br>
 > * i.	Each username has to be unique <br>
 > * ii.	Usernames can be composed of at most 25 characters <br>
@@ -36,7 +36,7 @@ I wrote a new Schema to accomodate the following: <br>
 > * i.	Hint: you can store the (up/down) value of the vote as the values 1 and -1 respectively. <br>
 > * ii.	If the user who cast a vote gets deleted, then all their votes will remain, but will become dissociated from the user. <br>
 > * iii. If a post gets deleted, then all the votes for that post should be automatically deleted too. <br>
-2.	Guideline #2: here is a list of queries that Udiddit needs in order to support its website and administrative interface. Note that you don’t need to produce the DQL for those queries: they are only provided to guide the design of your new database schema. <br>
+2.	Guideline #2: Here is a list of queries that Udiddit needs in order to support its website and administrative interface. Note that I don’t need to produce the DQL for those queries: they are only provided to guide the design of my new database schema. <br>
 > * A.	List all users who haven’t logged in in the last year. <br>
 > * B.	List all users who haven’t created any post. <br>
 > * C.	Find a user by their username. <br>
@@ -49,5 +49,5 @@ I wrote a new Schema to accomodate the following: <br>
 > * J.	List all the direct children of a parent comment. <br>
 > * K.	List the latest 20 comments made by a given user. <br>
 > * L.	Compute the score of a post, defined as the difference between the number of upvotes and the number of downvotes. <br>
-3.	Guideline #3: you’ll need to use normalization, various constraints, as well as indexes in your new database schema. You should use named constraints and indexes to make your schema cleaner. <br>
-4.	Guideline #4: your new database schema will be composed of five (5) tables that should have an auto-incrementing id as their primary key. <br>
+3.	Guideline #3: I’ll need to use normalization, various constraints, as well as indexes in my new database schema. I should use named constraints and indexes to make my schema cleaner. <br>
+4.	Guideline #4: My new database schema will be composed of five (5) tables that should have an auto-incrementing id as their primary key. <br>
